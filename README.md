@@ -1,10 +1,6 @@
-**Do Machine Learning Models Perform Consistently in Code Smell Detection? Analyzing Code Smell Trends in Python Repositories**
-
-# Code Smell Detection Using Machine Learning in Python Projects
-
+# Do Machine Learning Models Perform Consistently in Code Smell Detection? Analyzing Code Smell Trends in Python Repositorie
 This repository implements a **machine learning–based approach for detecting code smells** in Python software projects. The goal is to improve traditional rule-based and threshold-based detection methods by leveraging software metrics and supervised learning models.
 
----
 
 ## Overview
 
@@ -12,7 +8,6 @@ Code quality often degrades due to time pressure and changing requirements, lead
 
 This project focuses on automatically detecting code smells using machine learning and analyzing their distribution and evolution across large-scale Python repositories.
 
----
 
 ## Code Smells Studied
 
@@ -23,7 +18,6 @@ The following four types of code smells are analyzed:
 - Data Class  
 - Complex Method  
 
----
 
 ## Dataset
 
@@ -43,7 +37,6 @@ Each source code entity is represented using software metrics, including:
 - Halstead Metrics
 - Object Oriented Matrics
 
----
 
 ## Machine Learning Models
 
@@ -55,7 +48,6 @@ The following models are implemented and evaluated:
 - Multi-Layer Perceptron (MLP)  
 - TabNet  
 
----
 
 ## Evaluation Method
 
@@ -70,7 +62,6 @@ To assess statistical significance, the following tests are applied:
 - Friedman Test  
 - Nemenyi Post-hoc Test  
 
----
 
 ## Analysis
 
@@ -81,7 +72,6 @@ In addition to model comparison, this project analyzes:
 
 This analysis provides insights into how code quality changes during software evolution.
 
----
 
 ## Research Questions
 
@@ -94,7 +84,6 @@ This study is guided by the following research questions:
 - **RQ3:** Which machine learning model is most suitable for detecting each type of code smell based on predictive performance and computational efficiency?
 
 - **RQ4:** How are code smells distributed, and how do their trends evolve across different Python repositories when using the best-performing machine learning model?
----
 
 ## Keywords
 
